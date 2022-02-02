@@ -1,4 +1,4 @@
-package com.pluralsight.slidesstaticmembers;
+package slidesstaticmembers;
 
 import java.util.Random;
 
