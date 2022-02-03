@@ -1,4 +1,4 @@
-package com.monotonic.collections._2_what_are_collections.after;
+ackage com.monotonic.collections._2_what_are_collections.after;
 
 import com.monotonic.collections.common.Product;
 
