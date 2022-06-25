@@ -1,7 +1,11 @@
 package com.pluralsight.conference.model;
 
-public class Registration {
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 
+@AllArgsConstructor
+@NoArgsConstructor
+public class Registration {
     private String name;
 
     public String getName() {
