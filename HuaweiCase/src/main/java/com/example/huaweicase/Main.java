@@ -6,15 +6,8 @@ public class Main {
     // your own Object Oriented Code outside of this method also.
     public static int longestSubarray(int[] nums)
     {
-        // Input: 0 1 1 1 0 1 1 0 1
-        // Output: 5
-        // Explanation: After deleting the number in position 4, [0,1,1,1,1,1,0,1] longest subarray with value of 1's is [1,1,1,1,1].}
 
         int result = -1;
-
-        int[] left = new int[nums.length];
-        int[] right = new int[nums.length];
-
         return result;
     }
 
@@ -39,8 +32,6 @@ public class Main {
         // Input: 1 1 1
         // Output: 2
         // Explanation: You must delete one element.
-
-
     }
 }
 
