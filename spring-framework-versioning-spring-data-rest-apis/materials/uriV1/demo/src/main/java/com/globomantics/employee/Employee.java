@@ -11,6 +11,9 @@ import javax.persistence.Id;
 @Entity
 @Getter
 @EqualsAndHashCode
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -19,11 +22,4 @@ public class Employee {
     public String name;
     public String title;
 
-    protected Employee() {
-    }
-
-    public Employee(String name, String title) {
-        this.name = name;
-        this.title = title;
-    }
 }
