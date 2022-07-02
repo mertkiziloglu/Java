@@ -31,7 +31,7 @@ public class UsersController {
     public User post(@RequestBody UserCreateData userData) {
         User user = new User();
         user.setName(userData.getName());
-        user.setId("user-" + idGenerator.incrementAndGet());
+        user.setId("user-" + idGenerator.incrementAndGet()); //id generator incrementAndGet()
 
         usersDb.add(user);
         return user;
