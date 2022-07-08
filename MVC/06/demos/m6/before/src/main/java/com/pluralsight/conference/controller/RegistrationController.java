@@ -2,6 +2,7 @@ package com.pluralsight.conference.controller;
 
 import com.pluralsight.conference.model.Registration;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -22,4 +23,9 @@ public class RegistrationController {
         return "registration";
     }
 
+    @DeleteMapping
+    public String deleteRegistration(@ModelAttribute ("registration")Registration registration) {
+        System.out.println("Registration: " + registration.getName());
+        return "registration";
+    }
 }
