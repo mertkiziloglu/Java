@@ -22,6 +22,7 @@ public class ConferenceConfig implements WebMvcConfigurer {
         bean.setSuffix(".jsp");
         bean.setOrder(0);
         return bean;
+
     }
 
 }
